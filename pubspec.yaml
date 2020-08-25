@@ -1,0 +1,3 @@
+name: Practice_Dart
+dependencies:
+    intl: ^0.16.1

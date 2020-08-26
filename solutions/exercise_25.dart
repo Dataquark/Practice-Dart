@@ -61,10 +61,6 @@ void hangman(String word) {
 
     // Check the word for guessed letter
     for (var i = 0; i < word.length; i++) {
-      // if (clue[i] == choice) {
-      //   attempts += 1;
-      //   continue;
-      // } else
       if (word[i] == choice) {
         clue[i] = choice;
       }
